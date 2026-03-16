@@ -4,6 +4,7 @@ terraform {
     bucket = "statefile-terraform-15032026"
     key = "terraform.tfstate"
     region = "us-east-1"
+    use_lockfile = true
     
   }
 }
